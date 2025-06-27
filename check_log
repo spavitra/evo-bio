@@ -1,0 +1,124 @@
+#  Evolutionary Biology – Core Concepts & Investigations
+
+---
+
+## 1. **Genetic Drift**
+
+**What it is**:  
+Random changes in allele frequency due to sampling error in finite populations.
+
+**What we know**:
+- Drift dominates in small populations.
+- Can cause fixation or loss regardless of fitness.
+- Time to fixation ∝ population size (N).
+
+**Investigate further**:
+- Time to fixation for neutral alleles in varying N.
+- Drift vs. selection thresholds (when does selection overcome drift?).
+- Drift in structured or bottlenecked populations.
+
+---
+
+## 2. **Selection**
+
+**What it is**:  
+Non-random differential survival/reproduction based on genotype.
+
+**What we know**:
+- Positive selection increases allele frequency.
+- Negative selection decreases it.
+- Fixation probability of new beneficial allele ≈ 2s (in diploids).
+
+**Investigate further**:
+- Dominance effects (e.g., recessive vs. additive).
+- Selection on quantitative traits.
+- Interaction with drift in small populations.
+
+---
+
+## 3. **Mutation**
+
+**What it is**:  
+The source of new genetic variation; introduces new alleles.
+
+**What we know**:
+- Mutation is typically rare (μ ≈ 10⁻⁵ to 10⁻⁸).
+- Alone, mutation cannot maintain high-frequency alleles.
+- In combination with selection, leads to equilibrium.
+
+**Investigate further**:
+- Reversible mutation models (A ↔ a).
+- Empirical mutation rate estimation.
+- Mutation bias and its evolutionary consequences.
+
+---
+
+## 4. **Mutation–Selection Balance**
+
+**What it is**:  
+A stable frequency of a deleterious allele maintained by constant input from mutation and removal by selection.
+
+**What we know**:
+- Equilibrium frequency (additive selection):  
+  \[
+  q^* = \frac{\mu}{s}
+  \]
+- Explains why harmful alleles persist in populations.
+
+**Investigate further**:
+- Recessive vs. additive deleterious alleles.
+- Role in maintaining genetic load.
+- Disease persistence in large populations.
+
+---
+
+## 5. **Fixation Probability**
+
+**What it is**:  
+The chance that an allele eventually reaches frequency = 1.
+
+**What we know**:
+- Neutral: \( \frac{1}{2N} \) for diploids.
+- Advantageous: \( \approx 2s \) for small s.
+
+**Investigate further**:
+- Fixation under fluctuating environments.
+- Impact of dominance on fixation.
+- Fixation time distribution.
+
+
+## 6. **Population Size (N) and Drift Strength**
+
+**What we know**:
+- Small N → stronger drift, faster fixation/loss.
+- Large N → weaker drift, closer to deterministic dynamics.
+
+**Investigate further**:
+- Effective population size vs. census size.
+- Drift-selection boundary: when s ≈ 1/N.
+- Bottleneck effects on allele frequency distributions.
+
+---
+
+## 7. **Simulation-Based Exploration**
+
+**What we know**:
+- Wright-Fisher models can simulate realistic allele trajectories.
+- Adding selection, mutation, and finite population effects reveals complex dynamics.
+
+**Investigate further**:
+- Build multilocus simulations.
+- Include recombination, epistasis.
+- Model diploid genotypes explicitly (AA, Aa, aa).
+
+---
+
+##Upcoming Topics to Add
+
+- Recombination and linkage
+- Selective sweeps
+- Background selection
+- Linkage disequilibrium (LD)
+- Coalescent theory
+- Quantitative traits and polygenic selection
+
